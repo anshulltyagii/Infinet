@@ -139,7 +139,7 @@ const Post = ({ post }) => {
 						<span className='text-gray-700 flex gap-1 text-sm'>
 							<Link to={`/profile/${postOwner.username}`}>@{postOwner.username}</Link>
 							<span>·</span>
-							<span>{formattedDate}</span>
+							 <span>{formattedDate}</span> 
 						</span>
 						{isMyPost && (
 							<span className='flex justify-end flex-1'>
