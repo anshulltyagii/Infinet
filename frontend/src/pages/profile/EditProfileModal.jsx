@@ -18,6 +18,7 @@ const EditProfileModal = ({ authUser }) => {
 		setFormData({ ...formData, [e.target.name]: e.target.value });
 	};
 
+
 	useEffect(() => {
 		if (authUser) {
 			setFormData({
@@ -26,8 +27,8 @@ const EditProfileModal = ({ authUser }) => {
 				email: authUser.email,
 				bio: authUser.bio,
 				link: authUser.link,
-				newPassword: "",
-				currentPassword: "",
+				 newPassword: "",
+				 currentPassword: "",
 			});
 		}
 	}, [authUser]);
