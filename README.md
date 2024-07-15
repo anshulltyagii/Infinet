@@ -1,6 +1,6 @@
 # Infinet
 
-Infinet is a social platform project inspired by twitter. It provides a platform for users to share photos, connect with friends, and explore a visual feed of content.
+Infinet is a social platform project. It provides a platform for users to share photos, connect with friends, and explore a visual feed of content.
 ## Table of Contents
 
 - [Features](#features)
